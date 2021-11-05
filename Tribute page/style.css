@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=Courgette&display=swap');
+
+main {
+	background-color: #eee;
+	border-radius: 10px;
+}
+#title {
+	padding-top: 3%;
+}
+h1,
+p {
+	text-align: center;
+}
+#img-caption {
+	margin: 0 auto;
+	padding: 2% 0%;
+	max-width: 86%;
+	text-align: center;
+}
+#image {
+	max-width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+#img-div {
+	background-color: rgb(255, 255, 255);
+	margin: 0% auto;
+	width: 95%;
+}
+#tribute-info {
+	display: flex;
+	flex-direction: column;
+}
+#tribute-info .PM {
+	max-width: 400px;
+	margin: 10px auto;
+	text-align: start;
+	font-family: 'Cantarell', sans-serif;
+
+	font-family: 'Courgette', cursive;
+}
+ul {
+	margin: 5% 15%;
+}
+ul .ul-span {
+	font-size: 20px;
+	font-weight: 700;
+}
+#link-span {
+	margin: 35px auto 5px auto;
+	font-size: 20px;
+	font-weight: 600;
+}
+#timeline {
+	font-size: 20px;
+	font-weight: 700;
+	font-family: sans-Serif;
+}
+#tribute-link {
+	color: blue;
+}
+@media screen and (max-width: 500px) {
+	#tribute-info ul {
+		margin: 5% 0%;
+	}
+	#tribute-info .PM {
+		width: auto;
+		margin: 10px 11%;
+	}
+	#tribute-info #link-span {
+		font-size: 18px;
+	}
+}
