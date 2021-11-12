@@ -99,15 +99,16 @@ body {
 	align-items: center;
 	flex-wrap: wrap;
 	overflow: hidden;
+	border-bottom: 1px rgba(228 228 228);
 }
 #header-img {
-	width: 94px;
+	width: 97px;
 	height: fit-content;
-	background-color: #fff;
-	opacity: 0.5;
+	opacity: 0.8;
 	padding: 5px;
 	color: #fff;
-	border-radius: 3px;
+	margin-top: 3px;
+	display: none;
 }
 #nav-bar {
 	display: flex;
@@ -115,6 +116,7 @@ body {
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
+	align-items: center;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -140,42 +142,16 @@ body {
 	cursor: pointer;
 	padding: 6px;
 	font-weight: 600;
-}
-
-#header {
-	display: flex;
-	width: 100vw;
-	align-content: center;
-	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
-	overflow: hidden;
-	border-bottom: 1px solid rgb(227 227 227);
-}
-#header-img {
-	width: 97px;
-	height: fit-content;
-	opacity: 0.8;
-	padding: 5px;
-	color: #fff;
-	margin-top: 3px;
-	display: none;
-}
-
-#nav-bar {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-}
-#nav-items {
-	display: flex;
+	text-decoration: none;
+	color: #000;
 	list-style-type: none;
-	flex-wrap: wrap;
-	width: auto;
-	align-content: center;
-	flex-direction: row;
-	align-items: center;
+	display: inline-block;
+	margin: 0px 7px 0px 0px;
 }
+.nav-link:hover {
+	color: white;
+}
+
 .nav-li {
 	font-size: 16px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
@@ -190,16 +166,7 @@ body {
 	border-radius: 5px;
 	color: #fff;
 }
-.nav-link {
-	text-decoration: none;
-	color: #000;
-	list-style-type: none;
-	display: inline-block;
-	margin: 0px 7px 0px 0px;
-}
-.nav-link:hover {
-	color: white;
-}
+
 #btn-contact {
 	height: 30px;
 	border: none;
