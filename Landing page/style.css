@@ -250,7 +250,7 @@ main {
 }
 #description {
 	line-height: 1.5;
-	color: rgb(0 0 0 / 42%);
+	color: black;
 	width: 300px;
 	font-weight: 100;
 }
