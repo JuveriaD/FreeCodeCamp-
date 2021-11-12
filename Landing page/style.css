@@ -92,7 +92,8 @@ body {
 #header {
 	display: flex;
 	flex-direction: column;
-	/*   width: 100vw; */
+	  width: 100vw;
+	  height: 80px;
 	align-content: center;
 	justify-content: space-around;
 	align-items: center;
@@ -218,9 +219,7 @@ body {
 	color: rgba(166, 206, 125, 0.672);
 	background-color: #fff;
 }
-main {
-	margin-top: 14%;
-}
+
 /** CSS FOR HEADER ENDS HERE  */
 /*! **********END LINE************ */
 
@@ -433,16 +432,12 @@ footer {
 	/*! **********END LINE************ */
 }
 @media screen and (min-width: 599px) and (max-width: 861px) {
-	main {
-		margin-top: 7%;
-	}
+	
 }
 @media screen and (min-width: 600px) {
 	/** MEDIA QUERIES FOR CONTAINER-2 STARTS HERE  */
 
-	main {
-		margin-top: 6%;
-	}
+	
 	#header {
 		flex-direction: row;
 	}
