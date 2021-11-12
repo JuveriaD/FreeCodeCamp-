@@ -252,6 +252,7 @@ body {
 	color: black;
 	width: 300px;
 	font-weight: 100;
+	opacity: 0.7;
 }
 #email {
 	height: 29px;
