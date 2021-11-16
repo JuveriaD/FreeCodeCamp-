@@ -11,6 +11,7 @@ body {
 	flex-direction: column;
 	flex-wrap: wrap;
 	min-width: 100%;
+	overflow-x: hidden;
 }
 #menu-header {
 	display: flex;
@@ -57,21 +58,22 @@ body {
 }
 .main-grid {
 	display: grid;
-	grid-template-columns: minmax(280px, 1fr);
+	grid-template-columns: minmax(300px, 1fr);
 	grid-gap: 1rem;
 	grid-template-areas: 'navbar mainContent';
 }
 #navbar {
 	grid-area: navbar;
 	position: fixed;
-	margin: 10px 3px;
+	margin: 10px 5px;
 	overflow-y: scroll;
 	top: 10%;
-	bottom: 0;
+	bottom: 4%;
 }
 #navbar:hover {
 	overflow-y: scroll;
 }
+
 #nav-header {
 	margin: 0 auto;
 
@@ -80,7 +82,7 @@ body {
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
-	width: 100px;
+	min-width: 100%;
 }
 #navbar a {
 	display: block;
@@ -120,48 +122,72 @@ code {
 	border-top: 3px solid black;
 }
 .description {
-	width: 100%;
+	min-width: 100%;
 	/* height: fit-content; */
-	padding: 16px 0px;
-	margin: 4px 0px;
+	padding: 16px 15px 16px 0px;
+	margin: 4px 0;
 }
 p {
 	margin-bottom: 10px;
-	
+	text-align: justify;
+	line-height: 1.5;
 }
 .ul {
 	padding: 7px 4%;
+	line-height: 1.5;
+	font-size: 14px;
+	text-align: justify;
+}
+footer {
+	background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+p #copywrite{
+	text-align: center;
+	text-decoration: none;
+	color: rgb(245, 244, 203);
+}
+p a{
+	text-decoration: none;
+	color: rgb(42, 142, 230);
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 770px) {
 	.main-grid {
-		grid-template-columns: 1fr;
-		grid-template-areas:
-			'navbar' 'navbar'
-			'mainContent' 'mainContent';
+		grid-template-areas: 'navbar' 'mainContent';
 	}
 	#navbar {
 		position: inherit;
 		height: 300px;
 		border-bottom: 3px solid black;
 		border-top: 3px solid black;
+		margin: 5%;
 	}
-	#nav-header {
-		width: 300px;
-	}
+
 	#doc-name {
 		padding-bottom: 27px;
 	}
-
-	/* #main-doc {
-		margin-left: 5%;
-	} */
-}
-@media screen and (max-width:500px) {
-	p{
-		width: 390px;
+	#nav-header {
+		width: 100%;
 	}
-	code{
-		width: 390px;
+	#nav-list {
+		width: 100%;
+	}
+	#main-doc {
+		margin-left: 5%;
+	}
+	.main-section {
+		width: 100%;
+	}
+
+	.ul {
+		padding: 9px 10%;
 	}
 }
