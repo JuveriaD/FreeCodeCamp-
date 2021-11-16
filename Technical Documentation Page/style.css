@@ -122,11 +122,12 @@ code {
 .description {
 	width: 100%;
 	/* height: fit-content; */
-	padding: 16px 20px;
-	margin: 4px 5px;
+	padding: 16px 0px;
+	margin: 4px 0px;
 }
 p {
 	margin-bottom: 10px;
+	
 }
 .ul {
 	padding: 7px 4%;
@@ -154,5 +155,10 @@ p {
 
 	#main-doc {
 		margin-left: 5%;
+	}
+}
+@media screen and (max-width:500px) {
+	p{
+		width: 390px;
 	}
 }
