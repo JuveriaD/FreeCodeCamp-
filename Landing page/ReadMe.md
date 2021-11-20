@@ -1,3 +1,6 @@
+[Product Landind page](https://github.com/JuveriaD/FreeCodeCamp-/edit/master/Landing%20page/images/Product-Landing-Page.png)
+
+
 ## Successfully passed tests ✅
 
 ### User Story 1: 
