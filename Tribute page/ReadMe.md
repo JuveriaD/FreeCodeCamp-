@@ -1,3 +1,6 @@
+# Tribute page
+<img src="images/Tribute page.png" alt="Tribute page" style="height: 411px; width:400px;"/>
+
 ## Successfully passed tests ✅
 
 ### User Story 1:
