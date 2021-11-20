@@ -77,19 +77,20 @@ header {
 	right: 23%;
 	position: absolute;
 	top: 25%;
-	border-radius: 5px;
+  border-radius: 10% 20% 880% 10%;
 	cursor: pointer;
-	animation: spin-1 ease-in-out 10s alternate infinite;
-	box-shadow: 1px 1px 25px rgb(167, 236, 252);
+	animation: spin-1 10s linear infinite;
+	box-shadow: 1px 1px 55px rgb(167, 236, 252);
 }
 .effect-2 {
 	width: 30px;
 	height: 30px;
-	left: 2%;
+	left: 3%;
 	position: absolute;
-	top: 60%;
-	border-radius: 2px;
+	top: 90%;
+	border-radius: 50% 20% / 10% 40%;
 	cursor: pointer;
+	background-color: none;
 	animation: spin-2 ease-in-out 7s alternate infinite;
 	box-shadow: 1px 1px 25px rgb(167, 236, 252);
 }
@@ -174,6 +175,7 @@ header {
 .sec-1 #text {
 	line-height: 1.5;
 	margin: 0 auto;
+	z-index: 2;
 }
 #p-1 {
 	line-height: 1.7;
