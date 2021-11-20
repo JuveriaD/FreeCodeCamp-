@@ -278,7 +278,7 @@ h1 {
 }
 
 .sec-2 {
-	height: 95vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -320,6 +320,46 @@ h1 {
 	border-top: 2px solid rgb(72, 193, 236);
 	/* box-shadow: 1px 3px 16px #5cdbf1f7; */
 }
+.sec-3 {
+	/* height: 100vh; */
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+.p-4 {
+	margin-top: 5%;
+}
+#work {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+#projects {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0px;
+}
+.project-link {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	/* width: 300px;
+	height: 300px; */
+	margin: 31px 10px;
+	/* border: 1px solid; */
+}
+.sec-3 img {
+	width: 411px;
+	height: 233px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
 @media screen and (max-width: 500px) {
 	.header-li {
 		margin: 11px 0px;
