@@ -10,4 +10,4 @@
 
 [4 : Technical Documentation Page](https://juveriad.github.io/FreeCodeCamp-/Technical%20Documentation%20Page/)
 
-[5 : Personal Portfolio](https://juveriad.github.io/FreeCodeCamp-/)
+[5 : Personal Portfolio](https://juveriad.github.io/FreeCodeCamp-/Personal%20Portfolio/)
