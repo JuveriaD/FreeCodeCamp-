@@ -1,6 +1,5 @@
-<!-- ![](https://github.com/JuveriaD/FreeCodeCamp-/tree/master/Landing%20page/) -->
-
-<img src="images/Product-Landing-Page.png" alt="Product Landind page" style="height: 200px; width:300px;"/>
+# Product Landind page
+<img src="images/Product-Landing-Page.png" alt="Product Landind page" style="height: 411px; width:400px;"/>
 
 
 ## Successfully passed tests ✅
