@@ -1,4 +1,4 @@
-[Product Landind page](https://github.com/JuveriaD/FreeCodeCamp-/edit/master/Landing%20page/images/Product-Landing-Page.png)
+![Product Landind page](https://github.com/JuveriaD/FreeCodeCamp-/tree/master/Landing%20page/images/Product-Landing-Page.png)
 
 
 ## Successfully passed tests ✅
