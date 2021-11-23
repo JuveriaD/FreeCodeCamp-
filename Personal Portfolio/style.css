@@ -10,6 +10,7 @@ body {
 	color: rgb(255, 255, 255);
 	font-size: 1rem;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 ul {
 	list-style: none;
@@ -305,11 +306,7 @@ h1 {
 	font-weight: 600;
 	color: rgb(255, 255, 255);
 	box-shadow: 1px 3px 16px #5cdbf1f7;
-	background: linear-gradient(
-		0deg,
-		rgb(107, 203, 242) 0%,
-		rgb(2, 131, 251) 100%
-	);
+	background: linear-gradient(0deg, rgb(107, 203, 242) 0%, rgb(2, 131, 251) 100%);
 }
 .download_btn a:hover {
 	font-weight: 600;
@@ -346,16 +343,17 @@ h1 {
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-	margin: 10px 0px;
+	margin: 10px auto;
+	width: 200px;
 }
 .project-link {
 	text-decoration: none;
 	color: #fff;
 	display: block;
-	/* width: 300px;
-	height: 300px; */
+	/* width: 200px; */
+	/* height: 300px; */
 	margin: 31px 10px;
-	/* border: 1px solid; */
+	border: 1px solid;
 }
 .sec-3 img {
 	width: 411px;
@@ -397,4 +395,10 @@ h1 {
 	.sec-1 i:hover {
 		margin: 0px 7px;
 	}
+	.sec-2 {
+		height: 500px;
+	}
+	.sec-3 img {
+		width: 350px;
+		height: 233px;}
 }
