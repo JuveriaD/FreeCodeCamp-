@@ -377,7 +377,7 @@ h1 {
 		width: 350px;
 		text-align: start;
 	}
-	.sec-1 .links {
+	.sec-1 #links {
 		flex-direction: row;
 		margin: 52px auto 0px auto;
 		padding: 4px;
