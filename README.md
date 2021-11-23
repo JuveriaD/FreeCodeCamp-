@@ -1,6 +1,8 @@
 # FreeCodeCamp-
 ### Responsive webdesign
 
+<img src="" alt="certificate" />
+
 [1 : Tribute-page](https://juveriad.github.io/FreeCodeCamp-/Tribute%20page/)
 
 
@@ -11,3 +13,4 @@
 [4 : Technical Documentation Page](https://juveriad.github.io/FreeCodeCamp-/Technical%20Documentation%20Page/)
 
 [5 : Personal Portfolio](https://juveriad.github.io/FreeCodeCamp-/Personal%20Portfolio/)
+
