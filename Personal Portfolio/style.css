@@ -349,6 +349,26 @@ h1 {
 	display: block;
 	margin: 15px 8px;
 }
+.project-title {
+	text-align: center;
+	font-weight: bold;
+	border-radius: 2px;
+	line-height: 1.5;
+	
+	background-color: rgb(48 48 48);
+	margin: 6px;
+}
+.landing-page {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	object-fit: contain;
+	width: 250px;
+}
+.landing-page img {
+	background-color: rgb(241, 241, 241);
+}
+
 .sec-3 img {
 	height: 233px;
 	object-fit: scale-down;
@@ -406,5 +426,15 @@ h1 {
 		width: 360px;
 		height: 238px;
 		box-shadow: 1px 3px 16px #5cdbf1f7;
+	}
+	.landing-page {
+		flex-direction: row;
+		width: 350px;
+	}
+	.huddle img{
+		background-color: #674baf;
+	}
+	.project-title{
+		width: 350px;
 	}
 }
