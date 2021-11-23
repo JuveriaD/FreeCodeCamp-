@@ -1,7 +1,7 @@
 # FreeCodeCamp-
 ### Responsive webdesign
 
-<img src="" alt="certificate" />
+<img src="images/FCC.png" alt="certificate" />
 
 [1 : Tribute-page](https://juveriad.github.io/FreeCodeCamp-/Tribute%20page/)
 
