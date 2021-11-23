@@ -324,8 +324,12 @@ h1 {
 	/* height: 100vh; */
 	border-bottom: 1px solid rgb(255, 255, 255);
 }
-.p-4 {
+#p-4 {
 	margin-top: 5%;
+	font-size: 24px;
+	font-weight: bold;
+	color: rgb(0, 204, 255);
+	text-shadow: 3px 1px 1px rgb(15 90 108);
 }
 #work {
 	display: flex;
