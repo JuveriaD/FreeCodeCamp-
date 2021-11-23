@@ -8,7 +8,6 @@ body {
 	font-family: 'Roboto Mono', monospace;
 	background-color: #000000;
 	color: rgb(255, 255, 255);
-	/* font-size: 1rem; */
 	scroll-behavior: smooth;
 	overflow-x: hidden;
 }
@@ -315,14 +314,13 @@ h1 {
 	border-radius: 0px;
 	border-bottom: 2px solid rgb(72, 193, 236);
 	border-top: 2px solid rgb(72, 193, 236);
-	/* box-shadow: 1px 3px 16px #5cdbf1f7; */
 }
 .sec-3 {
-	/* height: 100vh; */
 	border-bottom: 1px solid rgb(255, 255, 255);
 }
 #p-4 {
-	margin-top: 5%;
+	text-align: center;
+	margin: 3% auto;
 	font-size: 24px;
 	font-weight: bold;
 	color: rgb(0, 204, 255);
@@ -344,22 +342,22 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	margin: 10px auto;
-	width: 200px;
 }
 .project-link {
 	text-decoration: none;
 	color: #fff;
 	display: block;
-	/* width: 200px; */
-	/* height: 300px; */
-	margin: 31px 10px;
-	border: 1px solid;
+	margin: 15px 8px;
 }
 .sec-3 img {
-	width: 411px;
 	height: 233px;
-	object-fit: cover;
+	object-fit: scale-down;
 	border-radius: 5px;
+}
+.sec-3 img:hover {
+	height: 240px;
+	background-color: rgb(241, 241, 241);
+	box-shadow: 1px 3px 16px #5cdbf1f7;
 }
 
 @media screen and (max-width: 500px) {
@@ -383,9 +381,10 @@ h1 {
 		border-bottom: 2px solid rgb(109, 233, 255);
 		border-top: none;
 	}
-	.sec-1 .links i {
+	.sec-1 i {
 		margin: 4px 7px;
 	}
+
 	.header-li-a {
 		padding: 6px 6px;
 	}
@@ -400,5 +399,12 @@ h1 {
 	}
 	.sec-3 img {
 		width: 350px;
-		height: 233px;}
+		object-fit: scale-down;
+		height: 233px;
+	}
+	.sec-3 img:hover {
+		width: 360px;
+		height: 238px;
+		box-shadow: 1px 3px 16px #5cdbf1f7;
+	}
 }
