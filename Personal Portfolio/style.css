@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Shippori+Antique+B1&display=swap');
-* {
+html {
+	font-size: 10px;
+}
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -10,6 +13,7 @@ body {
 	color: rgb(255, 255, 255);
 	scroll-behavior: smooth;
 	overflow-x: hidden;
+	font-size: 1.5rem;
 }
 ul {
 	list-style: none;
@@ -28,6 +32,8 @@ input {
 header {
 	background-color: black;
 	overflow: hidden;
+	/* border-bottom: 1px solid rgb(255, 255, 255); */
+	box-shadow: 30px 14px 73px 17px rgb(0, 0, 0);
 }
 #navbar {
 	display: flex;
@@ -41,24 +47,22 @@ header {
 	flex-wrap: wrap;
 	border-bottom: 1px solid rgb(255, 255, 255);
 }
-header {
-	box-shadow: 30px 14px 73px 17px rgb(0, 0, 0);
-}
+
 #header-ul {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	align-content: center;
-	margin: 8px 0px;
+	margin: 0.8rem 0rem;
 }
 .header-li {
-	margin: 11px 9px;
+	margin: 1.1rem 0.9rem;
 }
 .header-li-a {
 	color: rgb(255, 255, 255);
-	padding: 6px 10px;
-	margin: 4px 15px;
+	padding: 0.6rem 1rem;
+	margin: 0.4rem 1.5rem;
 	border-radius: 5px;
 	border-bottom: 2px solid #5cdbf1f7;
 }
@@ -99,15 +103,15 @@ header {
 	box-shadow: 1px 1px 25px rgb(167, 236, 252);
 }
 .effect-3 {
-	width: 30px;
-	height: 30px;
+	width: 3rem;
+	height: 3rem;
 	left: 10%;
 	position: absolute;
 	top: 20%;
 	border-radius: 55% 20%;
 	cursor: pointer;
 	background-color: none;
-	animation: spin-3 ease 4s reverse infinite;
+	animation: spin-3  4s infinite alternate-reverse ;
 	box-shadow: 1px 1px 25px rgb(167, 236, 252);
 }
 
@@ -194,15 +198,16 @@ header {
 	align-items: center;
 	width: 100%;
 	height: 100vh;
+
 	border-bottom: 1px solid rgb(255, 255, 255);
 }
 .sec-1 #text #contact-btn {
-	padding: 7px 10px;
-	margin: 12px 24px;
+	padding: 0.7rem 1rem;
+	margin: 1.2rem 2.4rem;
 	box-shadow: 1px 0px 16px 1px #5cdbf1f7;
 	border-radius: 5px;
 	cursor: pointer;
-	font-size: 18px;
+	font-size: 1.6rem;
 	background-color: #5cdbf1f7;
 	color: rgb(255, 255, 255);
 }
@@ -235,13 +240,13 @@ h1 {
 	display: flex;
 	border-radius: 5px;
 	flex-direction: column;
-	padding: 5px 8px;
-	margin: 5px 0px;
+	padding: 0.5rem 0.8rem;
+	margin: 0.5rem 0px;
 	border-top: 2px solid rgb(109, 233, 255);
 }
 .sec-1 i {
-	font-size: 24px;
-	margin: 6px 2px;
+	font-size: 2.4rem;
+	margin: 0.6rem 0.2rem;
 }
 .sec-1 i.fa-github-square {
 	color: black;
@@ -268,17 +273,16 @@ h1 {
 	color: rgba(33, 153, 33, 0.741);
 }
 .sec-1 i:hover {
-	font-size: 30px;
-	padding: 4px 7px;
+	font-size: 3rem;
+	padding: 0.4rem 0.7rem;
 	background-color: rgb(255, 255, 255);
 
 	border-radius: 5px;
-	margin: 7px 0px;
+	margin: 0.7rem 0.0rem;
 	box-shadow: 3px 3px 36px #fdffbc;
 }
 
 .sec-2 {
-	height: 100vh;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -288,20 +292,20 @@ h1 {
 	border-bottom: 1px solid rgb(255, 255, 255);
 }
 #p-3 {
-	width: 400px;
-	font-size: 1.2rem;
+	width: 40rem;
+	font-size: 1.6rem;
 	line-height: 1.5;
-	margin: 70px 24px;
+	margin: 7rem 2.4rem;
 }
 #span-p3 {
 	color: rgb(109, 233, 255);
 }
 .download_btn a {
 	text-decoration: none;
-	padding: 7px 10px;
+	padding: 0.7rem 1rem;
 	border-radius: 5px;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 1.4rem;
 	font-weight: 600;
 	color: rgb(255, 255, 255);
 	box-shadow: 1px 3px 16px #5cdbf1f7;
@@ -321,7 +325,7 @@ h1 {
 #p-4 {
 	text-align: center;
 	margin: 3% auto;
-	font-size: 24px;
+	font-size: 2.4rem;
 	font-weight: bold;
 	color: rgb(0, 204, 255);
 	text-shadow: 3px 1px 1px rgb(15 90 108);
@@ -341,100 +345,101 @@ h1 {
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-	margin: 10px auto;
+	margin: 1rem auto;
 }
 .project-link {
 	text-decoration: none;
 	color: #fff;
 	display: block;
-	margin: 15px 8px;
+	margin: 1.5rem 0.8rem;
 }
 .project-title {
 	text-align: center;
 	font-weight: bold;
 	border-radius: 2px;
 	line-height: 1.5;
-	
+
 	background-color: rgb(48 48 48);
-	margin: 6px;
+	margin: 0.6rem;
 }
 .landing-page {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	object-fit: contain;
-	width: 250px;
+	width: 25rem;
 }
 .landing-page img {
 	background-color: rgb(241, 241, 241);
 }
 
 .sec-3 img {
-	height: 233px;
+	height: 23.3rem;
 	object-fit: scale-down;
 	border-radius: 5px;
 }
 .sec-3 img:hover {
-	height: 240px;
+	height: 24rem;
 	background-color: rgb(241, 241, 241);
 	box-shadow: 1px 3px 16px #5cdbf1f7;
 }
 
 @media screen and (max-width: 500px) {
+	
 	.header-li {
-		margin: 11px 0px;
+		margin: 1.1rem 0px;
 	}
 	.header-li-a {
-		padding: 6px 7px;
-		margin: 4px 7px;
+		padding: 0.6rem 0.7rem;
+		margin: 0.4rem 0.7rem;
 	}
 	.sec-1 #text {
-		margin: 10px auto 0px auto;
-		width: 350px;
+		margin: 1rem auto 0rem auto;
+		width: 35rem;
 		text-align: start;
 	}
 	.sec-1 #links {
 		flex-direction: row;
-		margin: 52px auto 0px auto;
-		padding: 4px;
+		margin: 5.2rem auto 0rem auto;
+		padding: 0.4rem;
 		border-left: 2px solid rgb(109, 233, 255);
 		border-bottom: 2px solid rgb(109, 233, 255);
 		border-top: none;
 	}
 	.sec-1 i {
-		margin: 4px 7px;
+		margin: 0.4rem 0.7rem;
 	}
 
 	.header-li-a {
-		padding: 6px 6px;
+		padding: 0.6rem 0.6rem;
 	}
 	.header-li {
-		margin: 11px 4px;
+		margin: 1.1rem 0.4rem;
 	}
 	.sec-1 i:hover {
-		margin: 0px 7px;
+		margin: 0rem 0.7rem;
 	}
 	.sec-2 {
-		height: 500px;
+		height: 50rem;
 	}
 	.sec-3 img {
-		width: 350px;
+		width: 35rem;
 		object-fit: scale-down;
-		height: 233px;
+		height: 23.3rem;
 	}
 	.sec-3 img:hover {
-		width: 360px;
-		height: 238px;
+		width: 36rem;
+		height: 23.8rem;
 		box-shadow: 1px 3px 16px #5cdbf1f7;
 	}
 	.landing-page {
 		flex-direction: row;
-		width: 350px;
+		width: 35rem;
 	}
-	.huddle img{
+	.huddle img {
 		background-color: #674baf;
 	}
-	.project-title{
-		width: 350px;
+	.project-title {
+		width: 35rem;
 	}
 }
