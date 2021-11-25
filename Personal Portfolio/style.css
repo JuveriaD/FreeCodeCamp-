@@ -384,6 +384,30 @@ h1 {
 	box-shadow: 1px 3px 16px #5cdbf1f7;
 }
 
+.sec-4{
+	/* border: 2px solid aqua; */
+	height: 35rem;
+}
+#contact-title{
+	text-align: center;
+	font-size: 2rem;
+}
+#contact-form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.input-box{
+	padding: 0.6rem;
+	width: 30rem;
+	margin: 0rem 1.6rem;
+}
+footer{
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+}
 @media screen and (max-width: 500px) {
 	
 	.header-li {
@@ -436,9 +460,9 @@ h1 {
 		flex-direction: row;
 		width: 35rem;
 	}
-	.huddle img {
+	/* .huddle img {
 		background-color: #674baf;
-	}
+	} */
 	.project-title {
 		width: 35rem;
 	}
