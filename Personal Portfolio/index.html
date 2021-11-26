@@ -31,7 +31,7 @@
 	</header>
 	<main>
 		<section id="welcome-section" class="sec-1">
-			<div id="effect-wrap">
+			<div id="effect-wraper">
 				<div class="effect-1"></div>
 				<div class="effect-3"></div>
 			</div>
@@ -39,7 +39,7 @@
 				<p id="p-1">Hii, are you looking for frontend developer?</p>
 				<h1>I'm <span id="name">Juveria</span> Dalvi</h1>
 				<p id="p-2">FrontEnd Developer and Mentor.</p>
-				<button id="contact-btn">Contact</button>
+				<button class="contact-btn">Contact</button>
 			</div>
 			<div id="links">
 				<a href="https://github.com/JuveriaD" target="_blank" id="profile-link">
@@ -116,14 +116,17 @@
 		<section class="dark sec-4" id="contact">
 			<p id="contact-title"> let's work together</p>
 			<form action="#" id="contact-form">
-				<label for="name" >Name :</label>
-				<input type="text" name="name" id="name" placeholder="Enter Your Name" class="input-box">
+				<label for="name" class="lable-">Name:</label>
+				<input type="text" name="name" id="name-" placeholder="type your name" class="input-box">
 
-				<label for="Email">Email :</label>
-				<input type="email" name="email" id="Email" placeholder="Enter Your Email"class="input-box">
+				<label for="Email" class="lable-">Email:</label>
+				<input type="email" name="email" id="Email" placeholder="type your e-mail" class="input-box">
 
-				<label for="Message">Message :</label>
-				<textarea name="text-area" id="textarea" cols="30" rows="10" placeholder="Your Message" class="input-box"></textarea>
+				<label for="Message" class="lable-">Message:</label>
+				<textarea name="text-area" id="textarea" cols="30" rows="10" placeholder="type your message here"
+					class="input-box"></textarea>
+
+				<button type="submit" class="contact-btn" id="send">Send</button>
 			</form>
 		</section>
 	</main>

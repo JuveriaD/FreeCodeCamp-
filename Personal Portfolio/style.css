@@ -2,7 +2,7 @@
 html {
 	font-size: 10px;
 }
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -75,10 +75,7 @@ header {
 #welcome-section {
 	position: relative;
 }
-.effect-wrap {
-	position: absolute;
-	z-index: 1;
-}
+
 .effect-1 {
 	width: 30px;
 	height: 30px;
@@ -111,7 +108,7 @@ header {
 	border-radius: 55% 20%;
 	cursor: pointer;
 	background-color: none;
-	animation: spin-3  4s infinite alternate-reverse ;
+	animation: spin-3 4s infinite alternate-reverse;
 	box-shadow: 1px 1px 25px rgb(167, 236, 252);
 }
 
@@ -201,7 +198,7 @@ header {
 
 	border-bottom: 1px solid rgb(255, 255, 255);
 }
-.sec-1 #text #contact-btn {
+.contact-btn {
 	padding: 0.7rem 1rem;
 	margin: 1.2rem 2.4rem;
 	box-shadow: 1px 0px 16px 1px #5cdbf1f7;
@@ -211,7 +208,10 @@ header {
 	background-color: #5cdbf1f7;
 	color: rgb(255, 255, 255);
 }
-.sec-1 #text #contact-btn:hover {
+/* #send{
+	/* margin: 2rem 0; */
+/* } */ 
+.contact-btn:hover {
 	border-left: 2px solid #5cdbf1f7;
 	border-bottom: 2px solid #5cdbf1f7;
 	background-color: black;
@@ -384,32 +384,53 @@ h1 {
 	box-shadow: 1px 3px 16px #5cdbf1f7;
 }
 
-.sec-4{
+.sec-4 {
+	background-color: rgb(190, 251, 255);
+	color: #000000;
+	letter-spacing: 2px;
 	/* border: 2px solid aqua; */
-	height: 35rem;
+	/* height: 40rem; */
 }
-#contact-title{
+#contact-title {
 	text-align: center;
 	font-size: 2rem;
+	padding: 27px;
 }
-#contact-form{
+#contact-form {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-content: center;
 }
-.input-box{
+.input-box {
 	padding: 0.6rem;
 	width: 30rem;
 	margin: 0rem 1.6rem;
+	border-radius: 5px;
 }
-footer{
+#name,
+#Email {
+	outline: 1px solid rgb(0, 0, 0);
+}
+.lable- {
+	margin: 15px 0 2px 0;
+}
+#send {
+	background-color: black;
+	color: #ffffff;
+}
+#send:hover {
+	background-color: #97dd7d;
+	border-left: none;
+	border-bottom: none;
+}
+footer {
 	background-color: #fff;
 	color: #000;
 	text-align: center;
+	font-size: 1rem;
 }
 @media screen and (max-width: 500px) {
-	
 	.header-li {
 		margin: 1.1rem 0px;
 	}
@@ -460,9 +481,7 @@ footer{
 		flex-direction: row;
 		width: 35rem;
 	}
-	/* .huddle img {
-		background-color: #674baf;
-	} */
+
 	.project-title {
 		width: 35rem;
 	}
