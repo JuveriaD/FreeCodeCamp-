@@ -256,9 +256,11 @@ header {
 	color: #4ed5f3;
 }
 .sec-1 #text {
-	line-height: 1.5;
+	margin: 10px auto;
+	font-size: 1.5rem; 
+	 line-height: 1.5; 
 	margin: 0 auto;
-	z-index: 2;
+	z-index: 2; 
 }
 #p-1 {
 	line-height: 1.7;
@@ -268,9 +270,10 @@ header {
 	color: #ffffff;
 	font-weight: 600;
 }
-h1 {
+
+/* h1 {
 	font-size: 2rem;
-}
+} */
 .sec-1 #links {
 	background-color: rgb(255, 255, 255);
 	display: flex;
@@ -278,6 +281,7 @@ h1 {
 	flex-direction: column;
 	padding: 0.5rem 0.8rem;
 	margin: 0.5rem 0px;
+	z-index: 3;
 	border-top: 2px solid rgb(109, 233, 255);
 }
 .sec-1 i {
@@ -495,29 +499,29 @@ footer {
 		margin: 0.4rem 0.7rem;
 	}
 	.sec-1 #text {
-		margin: 1rem auto 0rem auto;
-		width: 35rem;
-		text-align: start;
+		margin: 10px auto;
+		width: 305px;
+		font-size: 1.7rem;
 	}
 	.sec-1 #links {
 		flex-direction: row;
-		margin: 5.2rem auto 0rem auto;
-		padding: 0.4rem;
+		margin: 9px auto;
+		padding: 4px;
 		border-left: 2px solid rgb(109, 233, 255);
 		border-bottom: 2px solid rgb(109, 233, 255);
 		border-top: none;
 	}
 	.sec-1 i {
-		margin: 0.4rem 0.7rem;
+		margin:4px 7px;
 	}
 	.header-li-a {
-		padding: 0.6rem 0.6rem;
+		padding: 6px 6px;
 	}
 	.header-li {
 		margin: 14px 7px;
 	}
 	.sec-1 i:hover {
-		margin: 0rem 0.7rem;
+		margin: 0 7px;
 	}
 	.sec-2 {
 		height: 400px;
