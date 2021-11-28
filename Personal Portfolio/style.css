@@ -279,14 +279,14 @@ header {
 	display: flex;
 	border-radius: 5px;
 	flex-direction: column;
-	padding: 0.5rem 0.8rem;
-	margin: 0.5rem 0px;
+	padding: 5px 8px;
+	margin: 5px 0;
 	z-index: 2;
 	border-top: 2px solid rgb(109, 233, 255);
 }
 .sec-1 i {
 	font-size: 2.4rem;
-	margin: 0.6rem 0.2rem;
+	margin: 6px 2px;
 }
 .sec-1 i.fa-github-square {
 	color: black;
@@ -363,14 +363,14 @@ header {
 }
 .download_btn a {
 	text-decoration: none;
-	padding: 0.7rem 1rem;
+	padding: 7px 10px;
 	border-radius: 5px;
 	cursor: pointer;
 	font-size: 1.4rem;
 	font-weight: 600;
 	color: rgb(255, 255, 255);
 	box-shadow: 0 1px 5px #46e4c980;
-	background: linear-gradient(0deg, rgb(26, 63, 78) 0%, rgb(8, 248, 248) 100%);
+	background: linear-gradient(220deg, rgb(137, 241, 198) 0%, rgb(0, 203, 253) 100%);
 }
 .download_btn a:hover {
 	font-weight: 600;
@@ -464,9 +464,9 @@ header {
 	align-content: center;
 }
 .input-box {
-	padding: 0.6rem;
+	padding: 6px;
 	width: 30rem;
-	margin: 0rem 1.6rem;
+	margin: 0 16px;
 	border-radius: 5px;
 	font-size: 1rem;
 }
@@ -495,8 +495,8 @@ footer {
 }
 @media screen and (max-width: 500px) {
 	.header-li-a {
-		padding: 0.6rem 0.7rem;
-		margin: 0.4rem 0.7rem;
+		padding: 6px 7px;
+		margin: 4px 7px;
 	}
 	.sec-1 #text {
 		margin: 10px auto;
