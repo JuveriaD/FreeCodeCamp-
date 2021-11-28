@@ -413,6 +413,7 @@ header {
 	color: #fff;
 	display: block;
 	margin: 12px 16px;
+	border-radius: 5px;
 }
 .project-title {
 	text-align: center;
@@ -436,10 +437,10 @@ header {
 .sec-3 img {
 	height: 23.3rem;
 	object-fit: scale-down;
-	border-radius: 5px;
+	
+	
 }
 .sec-3 img:hover {
-	height: 24rem;
 	background-color: rgb(241, 241, 241);
 	box-shadow: 1px 3px 16px #5cdbf1f7;
 }
@@ -526,15 +527,15 @@ footer {
 	.sec-2 {
 		height: 400px;
 	}
-	.sec-3 img {
+	.landing-page img {
 		width: 35rem;
 		object-fit: scale-down;
 		height: 23.3rem;
 	}
 	.sec-3 img:hover {
-		width: 336px;
-		height: 228px;
-		box-shadow: 1px 3px 16px #f0f0f0a1;
+		/* width: 336px; */
+		/* height: 228px; */
+		box-shadow: 10px 10px  rgb(229 229 229);
 	}
 	.landing-page {
 		flex-direction: row;
@@ -542,5 +543,6 @@ footer {
 	}
 	.project-title {
 		width: 300px;
+		margin: 16px auto;
 	}
 }
