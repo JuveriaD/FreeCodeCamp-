@@ -8,6 +8,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-attachment: fixed;
 	color: white;
 	
 }
@@ -17,7 +18,7 @@ body {
 	border-radius: 5px;
 	max-width: 600px;
 	margin: 0 auto;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 }
 #title {
 	text-align: center;
@@ -39,7 +40,7 @@ body {
 	height: 24px;
 	border-radius: 5px;
 	border: none;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	padding: 3px 5px;
 }
 .dropdown {
@@ -63,9 +64,9 @@ label {
 }
 
 #text-area {
-	height: 70px;
-	width: 100%;
+	min-width: 100%;
 	margin-bottom: 12px;
+	resize: vertical;
 }
 #submit {
 	background-color: rgb(14, 155, 59);
