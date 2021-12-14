@@ -21,17 +21,7 @@ ul {
 a {
 	text-decoration: none;
 }
-button {
-	outline: none;
-	border: none;
-}
-input {
-	outline: none;
-	border: none;
-}
-header {
-	overflow: hidden;
-}
+
 #navbar {
 	box-shadow: 1px 2px 57px #292a2a;
 	display: flex;
@@ -55,14 +45,17 @@ header {
 	margin: 8px 0;
 }
 .header-li {
-	margin: 12px 0px;
+	margin: 14px 7px;
 }
 .header-li-a {
 	color: rgb(255, 255, 255);
-	padding: 6px 10px;
-	margin: 4px 15px;
+
 	border-radius: 5px;
 	border-bottom: 2px solid #5cdbf1f7;
+
+	padding: 4px 11px;
+	margin: 0 5px;
+	box-shadow: 0 5px 5px -5px #5cdbf1f7;
 }
 .header-li-a:hover {
 	background-color: rgb(255, 255, 255);
@@ -246,6 +239,8 @@ header {
 	font-size: 1.6rem;
 	background-color: #5cdbf1f7;
 	color: rgb(255, 255, 255);
+	outline: none;
+	border: none;
 }
 .contact-btn:hover {
 	border-left: 2px solid #5cdbf1f7;
@@ -256,11 +251,11 @@ header {
 	color: #4ed5f3;
 }
 .sec-1 #text {
+	line-height: 1.5;
+	z-index: 2;
 	margin: 10px auto;
-	font-size: 1.5rem; 
-	 line-height: 1.5; 
-	margin: 0 auto;
-	z-index: 2; 
+	width: 305px;
+	font-size: 1.7rem;
 }
 #p-1 {
 	line-height: 1.7;
@@ -270,23 +265,21 @@ header {
 	color: #ffffff;
 	font-weight: 600;
 }
-
-/* h1 {
-	font-size: 2rem;
-} */
 .sec-1 #links {
 	background-color: rgb(255, 255, 255);
 	display: flex;
 	border-radius: 5px;
-	flex-direction: column;
-	padding: 5px 8px;
-	margin: 5px 0;
+	flex-direction: row;
 	z-index: 2;
-	border-top: 2px solid rgb(109, 233, 255);
+	margin: 9px auto;
+	padding: 4px;
+	border-left: 2px solid rgb(109, 233, 255);
+	border-bottom: 2px solid rgb(109, 233, 255);
+	border-top: none;
 }
 .sec-1 i {
 	font-size: 2.4rem;
-	margin: 6px 2px;
+	margin: 4px 7px;
 }
 .sec-1 i.fa-github-square {
 	color: black;
@@ -314,8 +307,8 @@ header {
 	padding: 0.4rem 0.7rem;
 	background-color: rgb(255, 255, 255);
 	border-radius: 5px;
-	margin: 0.7rem 0.0rem;
 	box-shadow: 0 3px 12px #fdffbc;
+	margin: 0 7px;
 }
 .sec-1::after,
 .sec-1::before {
@@ -340,7 +333,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	height: 100vh;
+	height: 400px;
 	align-content: center;
 	justify-content: center;
 	align-items: center;
@@ -421,28 +414,30 @@ header {
 	border-radius: 2px;
 	line-height: 1.5;
 	background-color: rgb(48 48 48);
-	margin: 7px auto;
-	width: 275px;
+	padding: 0 7%;
+	margin: 16px auto;
+	width: 300px;
 }
 .landing-page {
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
 	object-fit: contain;
-	width: 315px;
+	flex-direction: row;
+	width: 305px;
 }
 .landing-page img {
 	background-color: rgb(241, 241, 241);
+	width: 35rem;
+	object-fit: scale-down;
+	height: 23.3rem;
 }
 .sec-3 img {
 	height: 23.3rem;
 	object-fit: scale-down;
-	
-	
 }
 .sec-3 img:hover {
-	background-color: rgb(241, 241, 241);
-	box-shadow: 1px 3px 16px #5cdbf1f7;
+	background-color: rgba(240, 240, 240, 0.89);
+	box-shadow: 0px 5px 15px -5px #5cdbf1f7;
 }
 .sec-4 {
 	background-color: rgb(65 64 64);
@@ -457,6 +452,7 @@ header {
 	padding: 27px;
 	color: #09c4ff;
 	font-weight: bold;
+	text-shadow: 2px 2px #555c5cf5;
 }
 #contact-form {
 	display: flex;
@@ -466,14 +462,13 @@ header {
 }
 .input-box {
 	padding: 6px;
-	width: 30rem;
+	width: 300px;
 	margin: 0 16px;
 	border-radius: 5px;
 	font-size: 1rem;
 }
-#name-,
-#Email {
-	outline: 1px solid rgb(0, 0, 0);
+input {
+	border: none;
 }
 .lable- {
 	margin: 15px 0 2px 0;
@@ -483,7 +478,7 @@ header {
 	color: #ffffff;
 	box-shadow: none;
 }
-#send:hover {
+#send:active {
 	background-color: #97dd7d;
 	border-left: none;
 	border-bottom: none;
@@ -494,55 +489,43 @@ footer {
 	text-align: center;
 	font-size: 1rem;
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
 	.header-li-a {
-		padding: 6px 7px;
-		margin: 4px 7px;
-	}
-	.sec-1 #text {
-		margin: 10px auto;
-		width: 305px;
-		font-size: 1.7rem;
-	}
-	.sec-1 #links {
-		flex-direction: row;
-		margin: 9px auto;
-		padding: 4px;
-		border-left: 2px solid rgb(109, 233, 255);
-		border-bottom: 2px solid rgb(109, 233, 255);
-		border-top: none;
-	}
-	.sec-1 i {
-		margin:4px 7px;
-	}
-	.header-li-a {
-		padding: 6px 6px;
+		margin: 0 15px;
 	}
 	.header-li {
-		margin: 14px 7px;
+		margin: 12px 0px;
+	}
+	.sec-1 #text {
+		font-size: 1.5rem;
+		margin: 10px auto;
+		margin: 0 auto;
+	}
+	.sec-1 #links {
+		flex-direction: column;
+		padding: 5px 8px;
+		margin: 5px 0;
+		border-top: 2px solid rgb(109, 233, 255);
+	}
+	.sec-1 i {
+		margin: 6px 2px;
 	}
 	.sec-1 i:hover {
-		margin: 0 7px;
+		margin: 7px 0;
 	}
 	.sec-2 {
-		height: 400px;
-	}
-	.landing-page img {
-		width: 35rem;
-		object-fit: scale-down;
-		height: 23.3rem;
+		height: 100vh;
 	}
 	.sec-3 img:hover {
-		/* width: 336px; */
-		/* height: 228px; */
-		box-shadow: 10px 10px  rgb(229 229 229);
+		box-shadow: 10px 10px rgb(229 229 229);
 	}
 	.landing-page {
-		flex-direction: row;
-		width: 305px;
+		flex-direction: column;
+		width: 315px;
 	}
 	.project-title {
-		width: 300px;
-		margin: 16px auto;
+		margin: 18px auto;
+		padding: 5px 2%;
+		width: 320px;
 	}
 }
